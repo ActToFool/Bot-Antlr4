@@ -1,0 +1,21 @@
+program programa {	
+	define diagonal('length) ->
+		'counter <- 0;
+		while (counter < length) ->
+			V 1;
+			> 1;
+			counter <- counter + 1;
+		end;
+		$ counter;
+	end;
+	
+	'a;
+	? a;
+	$ a;
+	if  a == "N" & (2+3*5 >= 6) | (60-6/2 <> 8) ->
+		diagonal(5);
+	end;
+	
+	$a;
+	
+}
